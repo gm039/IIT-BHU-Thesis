@@ -1,0 +1,18 @@
+\vspace {0em}
+\vspace {0em}
+\vspace {0em}
+\contentsline {chapter}{List of Figures}{xiii}{dummy.3}
+\contentsline {chapter}{List of Tables}{xv}{dummy.5}
+\contentsline {chapter}{Abbreviations}{xvii}{dummy.7}
+\contentsline {chapter}{Preface}{xix}{dummy.10}
+\vspace {0em}
+\contentsline {chapter}{\numberline {1}Chapter Title Here}{1}{chapter.11}
+\contentsline {section}{\numberline {1.1}Main Section 1}{1}{section.12}
+\contentsline {subsection}{\numberline {1.1.1}Subsection 1}{1}{subsection.13}
+\contentsline {subsection}{\numberline {1.1.2}Subsection 2}{2}{subsection.14}
+\contentsline {section}{\numberline {1.2}Main Section 2}{2}{section.15}
+\vspace {0em}
+\contentsline {chapter}{\numberline {A}Appendix A}{3}{appendix.16}
+\vspace {0em}
+\contentsline {chapter}{References}{5}{dummy.17}
+\contentsline {chapter}{Author's Publications}{7}{appendix*.19}

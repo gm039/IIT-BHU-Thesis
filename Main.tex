@@ -1,0 +1,481 @@
+\documentclass[12pt, a4paper, twoside]{Thesis_Gourav} % Paper size, default font size and one-sided paper
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amsmath}
+
+%Added by me
+\usepackage{multirow}
+%\usepackage{cite}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{appendix}
+\usepackage{setspace}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{tikz}
+\usepackage{lettrine}
+\usepackage{enumerate} 
+\usepackage{csquotes}
+\usepackage{bibentry}
+\usepackage{pdflscape}
+\usepackage{lipsum}
+
+\renewcommand{\bibname}{References}
+%\renewcommand{\refname}{Authors's Publications}
+
+
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+	\hbox{}
+	\thispagestyle{empty} 
+	\newpage
+	\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother \clearpage{\pagestyle{plain}\cleardoublepage}
+
+
+%\usepackage{subcaption} %incompatible with subfig
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+%\usepackage[square, numbers]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' v
+
+\hypersetup{urlcolor=black, colorlinks=false} % Colors hyperlinks in blue - change to black if annoyingv`	
+\title{\ttitle} % Defines the thesis title - don't touch this
+
+\begin{document}
+\makeatletter
+\renewcommand*{\NAT@nmfmt}[1]{\textsc{#1}}
+\makeatother
+
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.6} % Line spacing of 1.6 (double line spacing)
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+%\HRule \\[0.4cm] % Horizontal line
+{\Large \bfseries \ttitle}\\ % Thesis title
+%\HRule \\[1.5cm] % Horizontal line
+ 
+  %\smallskip
+  %\bigskip
+  \vspace{11mm}
+\graphicspath{ {./Figures/} }
+\begin{figure}[hb]
+  \centering
+  \includegraphics[width=0.32\linewidth]{Pictures/iitbhu}
+\end{figure} 
+\vspace{3mm}
+ 
+%       {\Large \textbf{Thesis submitted in partial fulfillment}\par}
+%      {\Large \textbf{for the Award of Degree} \par 
+%      {\LARGE \textbf{\degreename} \par}
+ 
+\normalsize \textbf{Thesis submitted in partial fulfillment\\
+for the Award of Degree}\\ \Large{\textbf{\degreename}}\\[0.3cm] % University requirement text
+
+\vfill
+\normalsize \textbf{by}\\
+\href{https://sites.google.com/itbhu.ac.in/gourav-modanwal}{\normalsize \textbf{\authornames}}
+
+\vfill
+
+
+\normalsize{\textsc{\DEPTNAME\\ % Research group name and department name
+\UNIVNAME}}\\[1.5cm] % University name
+%\univname}}\\[1.5cm] % University name 
+\end{center}
+
+
+%\large \today\\[2cm] % Date
+\begin{minipage}{0.5\textwidth}
+	ROLL NO: 14091006
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{flushright} \large
+		2018
+	\end{flushright}
+\end{minipage}
+
+
+\end{titlepage}
+
+
+\cleardoublepage 
+\thispagestyle{empty}
+%----------------------------------------------------------------------------------------
+%	Certificate PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+\Certificate{{\vspace{0em}} % Add a gap in the Contents, for aesthetics
+
+
+% As per IIT(BHU) ordinance
+
+It is certified that the work contained in this thesis titled \enquote{\textbf{\ttitle}} by \textbf{\authornames} has been carried out under my supervision and that this work has not been submitted elsewhere for a degree.\\
+It is further certified that the student has fulfilled all the requirements of
+Comprehensive, Candidacy and SOTA.
+\\[2cm]
+
+\begin{minipage}{0.5\textwidth}
+	{\begin{center}
+
+	\end{center}}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	{\begin{center}
+		\textbf{(\supname)} \\
+		%\begin{center}
+			{{Supervisor\\
+			\deptname \\
+			Indian Institute of Technology (BHU)\\
+			India, 221005}}
+		%\end{center}
+	\end{center}}
+\end{minipage}
+\vfill{}
+
+
+}
+%\clearpage % Start a new page
+\cleardoublepage 
+\thispagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	Declaration PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+\Declaration{\addtocontents{toc}{\vspace{0em}} % Add a gap in the Contents, for aesthetics
+
+I, \textbf{\authornames}, certify that the work embodied in this thesis is my own bona fide work and carried out by me under the supervision of \textbf{\supname} from (Date of start) to (Date of finish), at the \deptname, \univname. The matter embodied in this thesis has not been submitted for the award of any other degree/diploma. I declare that I have faithfully acknowledged and given credits to the research workers wherever their works have been cited in my work in this thesis. I further declare that I have not willfully copied any other's work, paragraphs, text, data, results, etc., reported in journals, books, magazines, reports dissertations, theses, etc., or available at websites and have not included them in this thesis and have not cited as my own work.
+\\[1cm]
+\begin{minipage}{0.7\textwidth}
+	{
+		Date: \\
+		Place: IIT (BHU), Varanasi
+	}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+	{\begin{center}
+	 \hfill \break
+		(\textbf{\authornames})
+	\end{center}}
+\end{minipage}
+
+%\vspace{5mm}
+
+\begin{center}
+\large\textbf{CERTIFICATE BY THE SUPERVISOR}
+\end{center}
+It is certified that the above statement made by the student is correct to the best of my
+knowledge.\\
+
+\vspace{5mm}
+
+\begin{minipage}{0.5\textwidth}
+	{\begin{center}
+		\textbf{(\supname)} \\
+		%\begin{center}
+		Supervisor
+%			{{\deptname\\
+%			Indian Institute of Technology (BHU)\\
+%			Varanasi, India, 221005}}
+		%\end{center}
+	\end{center}}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	{\begin{center}
+	% (Co-Supervisor Name)	
+	% (Co-Supervisor) %Uncomment if co-supervisor
+	\end{center}}
+\end{minipage}
+
+
+\vspace{2mm}
+
+%% Uncomment if you need it in centre of the page
+%\begin{center}
+%Signature of Head of Department\\ 
+%% "SEAL OF THE DEPARTMENT"
+%\end{center}
+
+
+\begin{minipage}{0.5\textwidth}
+	{\begin{center}
+		%(\supname) \\
+		%\begin{center}
+			{
+			% any content
+			}
+		%\end{center}
+	\end{center}}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+	{\begin{center}
+		
+			\textbf{(Name of HOD)}\\
+%Signature of 
+Head of Department\\ 
+	\end{center}}
+\end{minipage}
+
+
+\vfill{}
+}
+
+\cleardoublepage 
+\thispagestyle{empty}
+%----------------------------------------------------------------------------------------
+%	Copyright Transfer Certificate PAGE
+%----------------------------------------------------------------------------------------
+\Copyright{\addtocontents{toc}{\vspace{0em}}
+\vspace{7mm}
+
+\begin{minipage}{0.35\textwidth}
+	{Title of the Thesis:\\ \\
+	Name of the Student:}
+\end{minipage}
+\begin{minipage}{0.65\textwidth}
+	{\ttitle \\
+	\authornames}
+\end{minipage}
+
+\vspace{7mm}
+
+\begin{center}
+\large\textbf{Copyright Transfer}
+\end{center}
+The undersigned hereby assigns to the \univname all rights under copyright that may exist in and for the above thesis submitted for the award of the \enquote{\degreename.}
+\\[1.5cm]
+\begin{minipage}{0.7\textwidth}
+	{
+		Date : \\
+		Place: IIT (BHU), Varanasi
+	}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+	{\begin{center}
+		(\textbf{\authornames})
+	\end{center}}
+\end{minipage}
+\\[2.0cm]
+Note: However, the author may reproduce or authorize others to reproduce material
+extracted verbatim from the thesis or derivative of the thesis for author's personal use
+provided that the source and the Institute's copyright notice are indicated.
+\vfill{}
+}
+\cleardoublepage 
+\thispagestyle{empty}
+
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+\acknowledgements{\addtocontents{toc}{\vspace{0em}} % Add a gap in the Contents, for aesthetics
+
+Your Content Here\\
+
+\lipsum[1-2]
+
+%\vfill{}
+
+%\vspace{1.21cm}
+\begin{flushright}
+\authornames
+\end{flushright}
+\vfill{}
+}
+\clearpage
+
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Return the line spacing back to 1.3
+%
+\pagestyle{empty} % Page style needs to be empty for this page
+%
+\dedicatory{\Huge \textbf{Dedicated to ......}}
+
+
+\cleardoublepage 
+\thispagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+\lhead{\emph{List of Abbreviations}} % Set the left side page header to "Abbreviations"
+\listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+{
+
+
+\textbf{ASL}  & \textbf{A}merican \textbf{S}ign \textbf{L}anguage                      \\
+\textbf{BSL}  & \textbf{B}ritish \textbf{S}ign \textbf{L}anguage                       \\
+\textbf{WHO}  & \textbf{W}orld \textbf{H}ealth \textbf{O}rganization 
+
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+%
+%\clearpage % Start a new page
+%
+%\lhead{\emph{Physical Constants}} % Set the left side page header to "Physical Constants"
+%
+%\listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
+%{
+%Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
+%% Constant Name & Symbol & = & Constant Value (with units) \\
+%}
+
+%%----------------------------------------------------------------------------------------
+%%	SYMBOLS
+%%----------------------------------------------------------------------------------------
+%
+%\clearpage % Start a new page
+%
+%\lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+%
+%\listofnomenclature{lll} % Include a list of Symbols (a two column table)
+%{
+%$D^{el}$ & elasticity tensor \\
+%$\sigma$ & stress tensor \\
+%$ \varepsilon $ & strain tensor \\
+%% Symbol & Name & Unit \\
+%
+%}
+
+%----------------------------------------------------------------------------------------
+%	Preface PAGE
+%----------------------------------------------------------------------------------------
+
+%\addtotoc{Preface} % Add the "Preface" page entry to the Contents
+\Preface{\addtocontents{toc}{\vspace{0em}}
+%\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+Youe Content Here
+
+\lipsum[1-2]
+
+
+}
+\clearpage % Start a new page
+
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+\doublespacing
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/Chapter1}
+%\input{Chapters/Chapter2} 
+%\input{Chapters/Chapter3}
+%\input{Chapters/Chapter4} 
+%\input{Chapters/Chapter5} 
+%\input{Chapters/Chapter6} 
+%\input{Chapters/Chapter7} 
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{0em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+
+
+\addtocontents{toc}{\vspace{0em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+%\nocite{*}
+\label{Bibliography}
+
+%\footnotesize
+
+%\scriptsize
+
+\lhead{\emph{References}} % Change the page header to say "Bibliography"
+\bibliographystyle{IEEEtran} 
+
+%\bibliographystyle{apalike} % Use the "custom" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography}
+
+
+\cleardoublepage
+
+% AUTHOR’S PUBLICATIONS 
+\chapter*{Author's Publications}
+\addcontentsline{toc}{chapter}{Author's Publications}
+\lhead{\emph{Author's Publications}}
+\vspace{0.41cm}  
+
+\end{document}  
