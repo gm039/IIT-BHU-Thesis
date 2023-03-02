@@ -1,0 +1,18 @@
+% !TEX encoding = UTF-8 Unicode
+%!TEX root = thesis.tex
+% !TEX spellcheck = en-US
+%%=========================================
+\addcontentsline{toc}{section}{Abstract}
+\begin{center}
+\textbf{\textit{{\color{blue}\large{\underline{Abstract}}}}}
+\end{center}
+
+
+\hspace{1.5cm}In signal and image processing application , Nyquist rate is so high that large amount of data is
+generated that need to be transmitted, stored and processed. This data generation rate is so high that it is nearly impossible or too costly, to design and build
+devices capable of acquiring samples at such a high rate and our communication channels are
+also not so developed to transfer data with such a high rate. To cope with such logistical and computational challenges Transform coding is used, which is based on sample then compress framework. But in this process large amount of sampled data  which contain insignificant information is discarded during reconstruction process which leads to unnecessary hardware and software load. To overcome this problem Compressed Sensing comes in existence.\\
+         Compressed Sensing is a sampling method which samples the sparse  signal in a compressed format i.e. it uses very less
+number of distinct samples of the target signal and is then recovered by using various recovery
+algorithms. To make this recovery process effective, some conditions are necessary such as signal or image must be sparse in a known domain and the number of measurements must be according to sparsity of signal or image. \\
+In this work we compare different sparse basis with different recovery algorithms for compressive sensing of images. For this purpose we use sparse basis like DCT, DWT, Haar, ODWT and BODWT and some of convex and greedy algorithms. Their performances are compared in terms of PSNR and SSIM. For this comparison we used test image Lena of size $256\times 256$. Due to high complexity of CS algorithms original image is divided into different blocks of size $16\times 16$ and optimization is performed on each block seprately. Our results show that Basis Pursuit algorithms give high SSIM and PSNR but with high computational time compare to greedy algorithms. After the comparison of our results we observe that BODWT sparse basis with BPDN-NESTA algorithm produces best result in terms of SSIM and PSNR.

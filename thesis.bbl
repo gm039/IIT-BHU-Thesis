@@ -1,0 +1,222 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Baraniuk et~al.}{2008}]{baraniuk2008simple}
+Baraniuk, R., Davenport, M., DeVore, R., and Wakin, M. (2008).
+\newblock A simple proof of the restricted isometry property for random
+  matrices.
+\newblock {\em Constructive Approximation}, 28(3):253--263.
+
+\bibitem[\protect\astroncite{Blumensath and
+  Davies}{2009}]{blumensath2009iterative}
+Blumensath, T. and Davies, M.~E. (2009).
+\newblock Iterative hard thresholding for compressed sensing.
+\newblock {\em Applied and Computational Harmonic Analysis}, 27(3):265--274.
+
+\bibitem[\protect\astroncite{Cahill et~al.}{2016}]{cahill2016gap}
+Cahill, J., Chen, X., and Wang, R. (2016).
+\newblock The gap between the null space property and the restricted isometry
+  property.
+\newblock {\em Linear Algebra and its Applications}, 501:363--375.
+
+\bibitem[\protect\astroncite{Cai et~al.}{2009}]{cai2009recovery}
+Cai, T.~T., Xu, G., and Zhang, J. (2009).
+\newblock On recovery of sparse signals via minimization.
+\newblock {\em Information Theory, IEEE Transactions on}, 55(7):3388--3397.
+
+\bibitem[\protect\astroncite{Candes and Romberg}{2007}]{candes2007sparsity}
+Candes, E. and Romberg, J. (2007).
+\newblock Sparsity and incoherence in compressive sampling.
+\newblock {\em Inverse problems}, 23(3):969.
+
+\bibitem[\protect\astroncite{Candes et~al.}{2005}]{candes2005error}
+Candes, E., Rudelson, M., Tao, T., and Vershynin, R. (2005).
+\newblock Error correction via linear programming.
+\newblock In {\em 46th Annual IEEE Symposium on Foundations of Computer Science
+  (FOCS'05)}, pages 668--681. IEEE.
+
+\bibitem[\protect\astroncite{Cand{\`e}s et~al.}{2006}]{candes2006robust}
+Cand{\`e}s, E.~J., Romberg, J., and Tao, T. (2006).
+\newblock Robust uncertainty principles: Exact signal reconstruction from
+  highly incomplete frequency information.
+\newblock {\em IEEE Transactions on information theory}, 52(2):489--509.
+
+\bibitem[\protect\astroncite{Candes et~al.}{2006}]{candes2006stable}
+Candes, E.~J., Romberg, J.~K., and Tao, T. (2006).
+\newblock Stable signal recovery from incomplete and inaccurate measurements.
+\newblock {\em Communications on pure and applied mathematics},
+  59(8):1207--1223.
+
+\bibitem[\protect\astroncite{Candes and Tao}{2005}]{candes2005decoding}
+Candes, E.~J. and Tao, T. (2005).
+\newblock Decoding by linear programming.
+\newblock {\em Information Theory, IEEE Transactions on}, 51(12):4203--4215.
+
+\bibitem[\protect\astroncite{Candes and Tao}{2006}]{candes2006near}
+Candes, E.~J. and Tao, T. (2006).
+\newblock Near-optimal signal recovery from random projections: Universal
+  encoding strategies?
+\newblock {\em IEEE transactions on information theory}, 52(12):5406--5425.
+
+\bibitem[\protect\astroncite{Chen et~al.}{2001}]{chen2001atomic}
+Chen, S.~S., Donoho, D.~L., and Saunders, M.~A. (2001).
+\newblock Atomic decomposition by basis pursuit.
+\newblock {\em SIAM review}, 43(1):129--159.
+
+\bibitem[\protect\astroncite{Cohen et~al.}{2008}]{cohen2008instance}
+Cohen, A., Dahmen, W., and DeVore, R. (2008).
+\newblock Instance optimal decoding by thresholding in compressed sensing.
+\newblock {\em Harmonic Analysis and Partial Differential Equations, Contemp.
+  Math}, 505:1--28.
+
+\bibitem[\protect\astroncite{DeVore}{2007}]{devore2007deterministic}
+DeVore, R.~A. (2007).
+\newblock Deterministic constructions of compressed sensing matrices.
+\newblock {\em Journal of Complexity}, 23(4):918--925.
+
+\bibitem[\protect\astroncite{Donoho}{2006}]{donoho2006compressed}
+Donoho, D.~L. (2006).
+\newblock Compressed sensing.
+\newblock {\em IEEE Transactions on information theory}, 52(4):1289--1306.
+
+\bibitem[\protect\astroncite{Donoho and Stark}{1989}]{donoho1989uncertainty}
+Donoho, D.~L. and Stark, P.~B. (1989).
+\newblock Uncertainty principles and signal recovery.
+\newblock {\em SIAM Journal on Applied Mathematics}, 49(3):906--931.
+
+\bibitem[\protect\astroncite{Donoho and Tanner}{2005}]{donoho2005sparse}
+Donoho, D.~L. and Tanner, J. (2005).
+\newblock Sparse nonnegative solution of underdetermined linear equations by
+  linear programming.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 102(27):9446--9451.
+
+\bibitem[\protect\astroncite{Donoho et~al.}{2012}]{donoho2012sparse}
+Donoho, D.~L., Tsaig, Y., Drori, I., and Starck, J.-L. (2012).
+\newblock Sparse solution of underdetermined systems of linear equations by
+  stagewise orthogonal matching pursuit.
+\newblock {\em Information Theory, IEEE Transactions on}, 58(2):1094--1121.
+
+\bibitem[\protect\astroncite{Duarte et~al.}{2008}]{duarte2008single}
+Duarte, M.~F., Davenport, M.~A., Takhar, D., Laska, J.~N., Sun, T., Kelly,
+  K.~E., Baraniuk, R.~G., et~al. (2008).
+\newblock Single-pixel imaging via compressive sampling.
+\newblock {\em IEEE Signal Processing Magazine}, 25(2):83.
+
+\bibitem[\protect\astroncite{Gorodnitsky
+  et~al.}{1995}]{gorodnitsky1995neuromagnetic}
+Gorodnitsky, I.~F., George, J.~S., and Rao, B.~D. (1995).
+\newblock Neuromagnetic source imaging with focuss: a recursive weighted
+  minimum norm algorithm.
+\newblock {\em Electroencephalography and clinical Neurophysiology},
+  95(4):231--251.
+
+\bibitem[\protect\astroncite{Karp and Kung}{2000}]{karp2000gpsr}
+Karp, B. and Kung, H.-T. (2000).
+\newblock Gpsr: Greedy perimeter stateless routing for wireless networks.
+\newblock In {\em Proceedings of the 6th annual international conference on
+  Mobile computing and networking}, pages 243--254. ACM.
+
+\bibitem[\protect\astroncite{Lorentz et~al.}{1996}]{lorentz1996constructive}
+Lorentz, G.~G., von Golitschek, M., and Makovoz, Y. (1996).
+\newblock {\em Constructive approximation: advanced problems}, volume 304.
+\newblock Springer Berlin.
+
+\bibitem[\protect\astroncite{Mallat and Zhang}{1993}]{mallat1993matching}
+Mallat, S.~G. and Zhang, Z. (1993).
+\newblock Matching pursuits with time-frequency dictionaries.
+\newblock {\em IEEE Transactions on signal processing}, 41(12):3397--3415.
+
+\bibitem[\protect\astroncite{Mendelson et~al.}{2008}]{mendelson2008uniform}
+Mendelson, S., Pajor, A., and Tomczak-Jaegermann, N. (2008).
+\newblock Uniform uncertainty principle for bernoulli and subgaussian
+  ensembles.
+\newblock {\em Constructive Approximation}, 28(3):277--289.
+
+\bibitem[\protect\astroncite{Muthukrishnan}{2005}]{muthukrishnan2005data}
+Muthukrishnan, S. (2005).
+\newblock {\em Data streams: Algorithms and applications}.
+\newblock Now Publishers Inc.
+
+\bibitem[\protect\astroncite{Needell and Tropp}{2009}]{needell2009cosamp}
+Needell, D. and Tropp, J.~A. (2009).
+\newblock Cosamp: Iterative signal recovery from incomplete and inaccurate
+  samples.
+\newblock {\em Applied and Computational Harmonic Analysis}, 26(3):301--321.
+
+\bibitem[\protect\astroncite{Needell and Ward}{2013}]{needell2013stable}
+Needell, D. and Ward, R. (2013).
+\newblock Stable image reconstruction using total variation minimization.
+\newblock {\em SIAM Journal on Imaging Sciences}, 6(2):1035--1058.
+
+\bibitem[\protect\astroncite{Nesterov}{1983}]{nesterov1983method}
+Nesterov, Y. (1983).
+\newblock A method for unconstrained convex minimization problem with the rate
+  of convergence o (1/k2).
+\newblock In {\em Doklady an SSSR}, volume 269, pages 543--547.
+
+\bibitem[\protect\astroncite{Nyquist}{1928}]{nyquist1928certain}
+Nyquist, H. (1928).
+\newblock Certain topics in telegraph transmission theory.
+
+\bibitem[\protect\astroncite{Rudin et~al.}{1992}]{rudin1992nonlinear}
+Rudin, L.~I., Osher, S., and Fatemi, E. (1992).
+\newblock Nonlinear total variation based noise removal algorithms.
+\newblock {\em Physica D: Nonlinear Phenomena}, 60(1):259--268.
+
+\bibitem[\protect\astroncite{Sermwuthisarn
+  et~al.}{2012}]{sermwuthisarn2012impulsive}
+Sermwuthisarn, P., Gansawat, D., Patanavijit, V., and Auethavekiat, S. (2012).
+\newblock Impulsive noise rejection method for compressed measurement signal in
+  compressed sensing.
+\newblock {\em EURASIP Journal on advances in signal processing},
+  2012(1):1--23.
+
+\bibitem[\protect\astroncite{Shi and Sun}{1999}]{shi1999image}
+Shi, Y.~Q. and Sun, H. (1999).
+\newblock {\em Image and video compression for multimedia engineering:
+  Fundamentals, algorithms, and standards}.
+\newblock CRC press.
+
+\bibitem[\protect\astroncite{Sparse}{2007}]{sparse2007application}
+Sparse, M. (2007).
+\newblock The application of compressed sensing for rapid mr imaging lustig
+  michael; donoho david; pauly john m.
+\newblock {\em Magnetic resonance in medicine: official journal of the Society
+  of Magnetic Resonance in Medicine/Society of Magnetic Resonance in Medicine},
+  58(6):1182--95.
+
+\bibitem[\protect\astroncite{Sun et~al.}{2012}]{sun2012sparsity}
+Sun, G., Zhou, Y., Wang, Z., Dang, W., and Li, Z. (2012).
+\newblock Sparsity adaptive compressive sampling matching pursuit algorithm
+  based on compressive sensing.
+\newblock {\em Journal of Computational Information Systems}, 7(4):2883--2890.
+
+\bibitem[\protect\astroncite{Tropp and Gilbert}{2005}]{tropp2005signal}
+Tropp, J. and Gilbert, A.~C. (2005).
+\newblock Signal recovery from partial information via orthogonal matching
+  pursuit.
+
+\bibitem[\protect\astroncite{Tropp et~al.}{2008}]{tropp2008iterative}
+Tropp, J., Needell, D., and Vershynin, R. (2008).
+\newblock Iterative signal recovery from incomplete and inaccurate
+  measurements.
+\newblock {\em Information Theory and Applications}.
+
+\bibitem[\protect\astroncite{Westerink et~al.}{1988}]{westerink1988subband}
+Westerink, P.~H., Boekee, D.~E., Biemond, J., and Woods, J.~W. (1988).
+\newblock Subband coding of images using vector quantization.
+\newblock {\em IEEE Transactions on Communications}, 36(6):713--719.
+
+\bibitem[\protect\astroncite{Yang and Zhang}{2009}]{yang2009digital}
+Yang, S.-l. and Zhang, Z.-b. (2009).
+\newblock Digital image watermarking using iterative blending based on wavelet
+  technique.
+\newblock In {\em 2009 International Conference on Multimedia Information
+  Networking and Security}, volume~2, pages 83--86. IEEE.
+
+\bibitem[\protect\astroncite{Yu et~al.}{2010}]{yu2010compressive}
+Yu, L., Barbot, J.-P., Zheng, G., and Sun, H. (2010).
+\newblock Compressive sensing with chaotic sequence.
+\newblock {\em IEEE Signal Processing Letters}, 17(8):731--734.
+
+\end{thebibliography}

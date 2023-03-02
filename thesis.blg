@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: front.aux
+A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: acknowledgment.aux
+A level-1 auxiliary file: Summary.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: chapter01.aux
+A level-1 auxiliary file: chapter02.aux
+A level-1 auxiliary file: chapter0n.aux
+A level-1 auxiliary file: chapter04.aux
+A level-1 auxiliary file: chapter05.aux
+A level-1 auxiliary file: chapter06.aux
+A level-1 auxiliary file: chapter07.aux
+A level-1 auxiliary file: acronyms.aux
+A level-1 auxiliary file: appendix-b.aux
+The style file: apa.bst
+Database file #1: refs.bib
+Repeated entry---line 143 of file refs.bib
+ : @article{candes2006robust
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 280 of file refs.bib
+ : @article{candes2006robust
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 291 of file refs.bib
+ : @article{donoho2006compressed
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 335 of file refs.bib
+ : @article{baraniuk2008simple
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 354 of file refs.bib
+ : @article{candes2005decoding
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 427 of file refs.bib
+ : @article{duarte2008single
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 447 of file refs.bib
+ : @article{candes2007sparsity
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 480 of file refs.bib
+ : @article{cohen2008instance
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--can't use both volume and number fields in nesterov1983method
+Warning--empty journal in nyquist1928certain
+(There were 8 error messages)
